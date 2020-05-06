@@ -1,4 +1,6 @@
 def square_array(array)
-  array.length.times do |index|
-    index ** 2
+  count = 0
+  while count < array.length
+    array[count] **2
+    count += 1
 end
